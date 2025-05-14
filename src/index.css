@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@400;600&display=swap');
+
+.elegant-font {
+  font-family: 'Teko', sans-serif;
+}
