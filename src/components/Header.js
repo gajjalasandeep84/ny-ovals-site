@@ -31,23 +31,23 @@ export default function Header() {
 
         <nav className="flex space-x-6 text-lg font-serif items-center">
           <Link to="/" className={linkClass("/")}>Home</Link>
-          <Link to="/gallery" className={linkClass("/gallery")}>Gallery</Link>
-          <Link to="/rentals" className={linkClass("/rentals")}>Decor Rentals</Link>
+          <Link to="/gallery" className={linkClass("/gallery")}>Our Grounds</Link>
+          <Link to="/rentals" className={linkClass("/rentals")}>Upcoming Events</Link>
 
           <div className="relative group">
             <button
               onClick={() => setShowDropdown(!showDropdown)}
               className={location.pathname.includes("/events") ? "text-yellow-600 elegant-font font-semibold" : "text-gray-800 elegant-font hover:text-yellow-600"}
             >
-              Events ▼
+              Gallery ▼
             </button>
             {showDropdown && (
               <div className="absolute top-8 left-0 bg-white border border-gray-200 rounded shadow-md py-2 z-50 w-48">
-                <Link to="/events/birthday" className="block px-4 py-2 hover:bg-yellow-50 text-gray-700 elegant-font" onClick={() => setShowDropdown(false)}>
-                  Birthday Parties
+                <Link to="/events/beginners" className="block px-4 py-2 hover:bg-yellow-50 text-gray-700 elegant-font" onClick={() => setShowDropdown(false)}>
+                  Beginners
                 </Link>
-                <Link to="/events/womensday" className="block px-4 py-2 hover:bg-yellow-50 text-gray-700 elegant-font" onClick={() => setShowDropdown(false)}>
-                  Womensday Events
+                <Link to="/events/tournaments" className="block px-4 py-2 hover:bg-yellow-50 text-gray-700 elegant-font" onClick={() => setShowDropdown(false)}>
+                  Tournaments
                 </Link>
                 <Link to="/events/cradle" className="block px-4 py-2 hover:bg-yellow-50 text-gray-700 elegant-font" onClick={() => setShowDropdown(false)}>
                   Cradle Ceremony

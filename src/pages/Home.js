@@ -12,10 +12,10 @@ export default function Home() {
   const [selected, setSelected] = useState("Home");
   const [imageGroups, setImageGroups] = useState({
     Home: [],
-    Weddings: [],
+    Gallery: [],
     "Rentals": [],
-    "Birthday Parties": [],
-    "Womensday Events": [],
+    "Beginners": [],
+    "YTournaments": [],
   });
 
   const galleryRef = useRef(null);
@@ -23,13 +23,13 @@ export default function Home() {
   useEffect(() => {
     setImageGroups({
       Home: importAll(require.context('../watermarked/images/home', false, /\.(png|jpe?g|svg)$/)),
-      Weddings: importAll(require.context('../watermarked/images/weddings', false, /\.(png|jpe?g|svg)$/)),
+      Gallery: importAll(require.context('../watermarked/images/gallery', false, /\.(png|jpe?g|svg)$/)),
       "Rentals": importAll(require.context('../watermarked/images/rentals', false, /\.(png|jpe?g|svg)$/)),
-      "Birthday Parties": importAll(require.context('../watermarked/images/birthday', false, /\.(png|jpe?g|svg)$/)),
-      "Womensday Events": importAll(require.context('../watermarked/images/womensday', false, /\.(png|jpe?g|svg)$/)),
+      "Birthday Parties": importAll(require.context('../watermarked/images/beginners', false, /\.(png|jpe?g|svg)$/)),
+      "Womensday Events": importAll(require.context('../watermarked/images/tournaments', false, /\.(png|jpe?g|svg)$/)),
     });
   }, []);
-  
+
 
   useEffect(() => {
     if (galleryRef.current) {
@@ -41,7 +41,7 @@ export default function Home() {
     <div className="font-serif">
       <Header selected={selected} setSelected={setSelected} />
       <IntroSection
-         iconImgs={["/icons/cricket-ball.png", "/icons/cricket-bat.png", "/icons/cricket-trophies.png"]}
+        iconImgs={["/icons/cricket-ball.png", "/icons/cricket-bat.png", "/icons/cricket-trophies.png"]}
         title={<>Welcome to NY Ovals  <strong>– Where Cricket Meets Community and Nature</strong></>}
         subtitle={`NY Ovals Cricket Facility features three full-size natural turf cricket pitches.
 The fields are open for seasonal lease starting Memorial Day weekend.
