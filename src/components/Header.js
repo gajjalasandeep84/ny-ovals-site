@@ -60,7 +60,7 @@ export default function Header() {
         </nav>
       </div>
 
-      {location.pathname === "/" && (
+     {/*location.pathname === "/" && (
         <div
           className="h-[400px] bg-cover bg-center flex items-center justify-center"
           style={{ backgroundImage: "url('/images/nyovals-ariel.jpg')" }}
@@ -70,7 +70,7 @@ export default function Header() {
             <p className="text-lg mt-2">Cricket in the Heart of the Tri-City Area</p>
           </div>
         </div>
-      )}
+      )*/}
     </header>
   );
 }

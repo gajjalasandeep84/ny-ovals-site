@@ -23,12 +23,12 @@ export default function UpcomingEvents() {
 
         <div className="space-y-3 text-lg text-gray-800">
           <div className="flex justify-between items-center">
-            <span>🟢 <span className="font-semibold">Fridays</span> (5:30 PM – 7:30 PM)</span>
+            <span>🟢 <span className="font-semibold">Friday</span> (5:30 PM – 7:30 PM)</span>
             <span className="italic text-med text-gray-600">Beginners Practice</span>
           </div>
 
           <div className="flex justify-between items-center">
-            <span>🔵 <span className="font-semibold">Saturdays</span> (10:30 AM – 12:30 PM)</span>
+            <span>🔵 <span className="font-semibold">Saturday</span> (10:30 AM – 12:30 PM)</span>
             <span className="italic text-med text-gray-600">Experienced Players</span>
           </div>
         </div>

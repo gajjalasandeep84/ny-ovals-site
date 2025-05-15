@@ -4,28 +4,25 @@ import GallerySection from "../components/GallerySection";
 import Footer from "../components/Footer";
 import IntroSection from "../components/IntroSection";
 
-function importAll(r) {
-  return r.keys().map(r);
-}
-
 export default function Home() {
   const [selected, setSelected] = useState("Home");
-  const [imageGroups, setImageGroups] = useState({
-    Home: [],
-    Gallery: [],
-    "Rentals": [],
-    "Beginners": [],
-    "YTournaments": [],
-  });
+  const [homeImages, setHomeImages] = useState([]);
+
 
   const galleryRef = useRef(null);
 
   useEffect(() => {
-    setImageGroups({
-      Home: importAll(require.context('../watermarked/images/home', false, /\.(png|jpe?g|svg)$/))
-    });
+    fetch("/data/home.json")
+      .then((res) => res.json())
+      .then((home) => {
+        setHomeImages({
+          Home: home
+        });
+      })
+      .catch((err) => {
+        console.error("Error loading home images", err);
+      });
   }, []);
-
 
   useEffect(() => {
     if (galleryRef.current) {
@@ -47,7 +44,7 @@ Reserve your slot early to secure your preferred dates.NY Ovals Cricket Facility
 Reach out today and let the planning begin!`}
       />
       <div ref={galleryRef}>
-        <GallerySection selected={selected} images={imageGroups[selected] || []} />
+        <GallerySection selected={selected} images={homeImages[selected] || []} />
       </div>
     </div>
   );
