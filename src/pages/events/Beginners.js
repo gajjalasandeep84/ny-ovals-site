@@ -48,10 +48,11 @@ export default function Beginners() {
     <div className="font-serif">
       <Header />
       <IntroSection
-     iconImgs={["/icons/cricket-ball.png", "/icons/cricket-bat.png", "/icons/cricket-trophies.png"]}
+        iconImgs={["/icons/cricket-ball.png", "/icons/cricket-bat.png", "/icons/cricket-trophies.png"]}
+        padding="pt-4 pb-6"
         title={<>Getting Started with Cricket:<strong>– Juniors & Beginners</strong></>}
         subtitle={`Whether your child is picking up a bat for the first time or just learning the rules of the game, this is the place to start. NY Ovals offers a friendly, supportive environment for young cricketers to learn, play, and grow.
-        Our beginner sessions focus on fun, fundamentals, and teamwork—no prior experience needed. All skill levels welcome, ages 5 and up!`}/>
+        Our beginner sessions focus on fun, fundamentals, and teamwork—no prior experience needed. All skill levels welcome, ages 5 and up!`} />
       <main className="max-w-6xl mx-auto px-6 py-10">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {images.map((img, idx) => (

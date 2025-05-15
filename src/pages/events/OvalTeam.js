@@ -9,7 +9,7 @@ function importAll(r) {
   return r.keys().map(r);
 }
 
-export default function Cradles() {
+export default function OvalTeam() {
   const [images, setImages] = useState([]);
   const [isOpen, setIsOpen] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -26,7 +26,7 @@ export default function Cradles() {
   }, []);
 
   useEffect(() => {
-    const loadedImages = importAll(require.context("../../watermarked/images/cradleceremony", false, /\.(png|jpe?g|svg)$/));
+    const loadedImages = importAll(require.context("../../watermarked/images/ovalteam", false, /\.(png|jpe?g|svg)$/));
     setImages(loadedImages);
   }, []);
 
@@ -50,10 +50,11 @@ export default function Cradles() {
       <Header />
       <IntroSection
       icon="🛏️👶"
-        iconImg="/cradle-icon1.png"
-          iconSize="h-24"
-        title="Welcome Your Little One With Love"
-        subtitle="Celebrate your baby’s arrival with charming décor that captures the joy of new beginnings."
+        iconImgs={["/icons/cricket-ball.png", "/icons/cricket-bat.png", "/icons/cricket-trophies.png"]}
+        padding="pt-4 pb-6"
+        title={<><strong>Meet our team</strong></>}
+        subtitle="Behind every match, pitch, and event is a dedicated team that keeps NY Ovals running.
+                 Get to know the people who make cricket happen in the Tri-City area."
       />
       <main className="max-w-6xl mx-auto px-6 py-10">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

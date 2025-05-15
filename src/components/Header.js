@@ -32,7 +32,7 @@ export default function Header() {
         <nav className="flex space-x-6 text-lg font-serif items-center">
           <Link to="/" className={linkClass("/")}>Home</Link>
           <Link to="/gallery" className={linkClass("/gallery")}>Our Grounds</Link>
-          <Link to="/rentals" className={linkClass("/rentals")}>Upcoming Events</Link>
+          <Link to="/upcomingEvents" className={linkClass("/upcomingEvents")}>Upcoming Events</Link>
 
           <div className="relative group">
             <button
@@ -49,8 +49,8 @@ export default function Header() {
                 <Link to="/events/tournaments" className="block px-4 py-2 hover:bg-yellow-50 text-gray-700 elegant-font" onClick={() => setShowDropdown(false)}>
                   Tournaments
                 </Link>
-                <Link to="/events/cradle" className="block px-4 py-2 hover:bg-yellow-50 text-gray-700 elegant-font" onClick={() => setShowDropdown(false)}>
-                  Cradle Ceremony
+                <Link to="/events/ovalteam" className="block px-4 py-2 hover:bg-yellow-50 text-gray-700 elegant-font" onClick={() => setShowDropdown(false)}>
+                  Meet our team
                 </Link>
               </div>
             )}

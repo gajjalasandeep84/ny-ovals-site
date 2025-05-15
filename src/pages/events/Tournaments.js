@@ -50,10 +50,12 @@ export default function Tournaments() {
       <Header />
       <IntroSection
         iconImgs={["/icons/cricket-ball.png", "/icons/cricket-bat.png", "/icons/cricket-trophies.png"]}
+        padding="pt-4 pb-6"
         title={<>Cricket Tournaments at NY Ovals</>}
-        subtitle={`From weekend knockouts to season-long leagues, NY Ovals is the home for competitive cricket in the Tri-City area. Our natural turf wickets and spacious grounds provide the perfect setting for thrilling matchups.
-
-We host adult and youth tournaments year-round, open to local clubs, corporate teams, and regional players. Whether you're chasing trophies or just love the game—there’s a tournament for you.`} />
+        subtitle={`From weekend knockouts to season-long leagues, NY Ovals is the home for competitive cricket in the Tri-City area. 
+                   Our natural turf wickets and spacious grounds provide the perfect setting for thrilling matchups.
+                   We host adult and youth tournaments year-round, open to local clubs, corporate teams, and regional players. 
+                   Whether you're chasing trophies or just love the game—there’s a tournament for you.`} />
       <main className="max-w-6xl mx-auto px-6 py-10">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {images.map((img, idx) => (

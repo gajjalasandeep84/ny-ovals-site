@@ -50,13 +50,14 @@ export default function Weddings() {
     <div className="font-serif">
       <Header />
       <IntroSection
-        icon="💍💒💐"
+        iconImgs={["/icons/cricket-ball.png", "/icons/cricket-bat.png", "/icons/cricket-trophies.png"]}
+        padding="pt-4 pb-6"
         title={<>Explore <strong>‘NY Ovals’</strong> From Every Angle</>}
         subtitle={
           <>
-            <p>Explore the grounds where cricket thrives in the heart of Albany, Troy, and Schenectady. From scenic drone views to pitch-side captures, 
+            <p>Explore the grounds where cricket thrives in the heart of Albany, Troy, and Schenectady. From scenic drone views to pitch-side captures,
               this gallery showcases the natural turf, open spaces, and community spirit that define NY Ovals.</p>
-            <p className="mt-4">Whether you're gearing up for league play or just visiting, 
+            <p className="mt-4">Whether you're gearing up for league play or just visiting,
               these images offer a glimpse of the place where the Tri-City area comes together to practice, compete, and celebrate the game.</p>
           </>
         }

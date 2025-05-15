@@ -33,7 +33,6 @@ export default function Footer() {
           <div className="grid grid-cols-2 gap-x-4 gap-y-1">
             <span>Weekend League Matches</span>
             <span>Private Team Bookings</span>
-            <span>Gender Reveals</span>
             <span>Coaching Sessions</span>
             <span>Turf Wicket Rentals</span>
             <span>Local Tournaments</span>
