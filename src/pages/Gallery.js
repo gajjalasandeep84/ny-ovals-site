@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import { motion, AnimatePresence } from "framer-motion";
 import IntroSection from "../components/IntroSection";
 
+
 function importAll(r) {
   return r.keys().map(r);
 }
@@ -25,10 +26,17 @@ export default function Weddings() {
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, []);
 
-  useEffect(() => {
+/* useEffect(() => {
     const loadedImages = importAll(require.context("../watermarked/images/gallery", false, /\.(png|jpe?g|svg)$/));
     setImages(loadedImages);
-  }, []);
+  }, []);*/
+
+   useEffect(() => {
+  fetch("/data/gallery.json")
+    .then((res) => res.json())
+    .then((data) => setImages(data));
+}, []);
+
 
   const openSlideshow = (index) => {
     setCurrentIndex(index);
