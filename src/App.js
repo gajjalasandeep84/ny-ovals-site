@@ -9,6 +9,7 @@ import OvalTeam from "./pages/events/OvalTeam";
 import ScrollToTop from "./components/ScrollToTop";
 import Layout from "./components/Layout";
 import UpcomingEvents from "./pages/UpcomingEvents";
+import PlayerRoster  from "./pages/PlayerRoster";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/events/beginners" element={<Beginners />} />
           <Route path="/events/tournaments" element={<Tournaments />} />
           <Route path="/events/ovalteam" element={<OvalTeam />} />
+          <Route path="/players" element={<PlayerRoster  />} />
         </Routes>
       </Layout>
     </BrowserRouter>

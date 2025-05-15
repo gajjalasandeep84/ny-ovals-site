@@ -33,7 +33,7 @@ export default function Header() {
           <Link to="/" className={linkClass("/")}>Home</Link>
           <Link to="/gallery" className={linkClass("/gallery")}>Our Grounds</Link>
           <Link to="/upcomingEvents" className={linkClass("/upcomingEvents")}>Upcoming Events</Link>
-
+          <Link to="/players" className={linkClass("/players")}>Players</Link>
           <div className="relative group">
             <button
               onClick={() => setShowDropdown(!showDropdown)}
