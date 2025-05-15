@@ -25,10 +25,16 @@ export default function Tournaments() {
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, []);
 
-  useEffect(() => {
+/*  useEffect(() => {
     const loadedImages = importAll(require.context("../../watermarked/images/tournaments", false, /\.(png|jpe?g|svg)$/));
     setImages(loadedImages);
-  }, []);
+  }, []);*/
+
+  useEffect(() => {
+  fetch("/data/tournaments.json")
+    .then((res) => res.json())
+    .then((data) => setImages(data));
+}, []);
 
   const openSlideshow = (index) => {
     setCurrentIndex(index);

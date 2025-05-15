@@ -22,11 +22,7 @@ export default function Home() {
 
   useEffect(() => {
     setImageGroups({
-      Home: importAll(require.context('../watermarked/images/home', false, /\.(png|jpe?g|svg)$/)),
-      Gallery: importAll(require.context('../watermarked/images/gallery', false, /\.(png|jpe?g|svg)$/)),
-      "Rentals": importAll(require.context('../watermarked/images/rentals', false, /\.(png|jpe?g|svg)$/)),
-      "Birthday Parties": importAll(require.context('../watermarked/images/beginners', false, /\.(png|jpe?g|svg)$/)),
-      "Womensday Events": importAll(require.context('../watermarked/images/tournaments', false, /\.(png|jpe?g|svg)$/)),
+      Home: importAll(require.context('../watermarked/images/home', false, /\.(png|jpe?g|svg)$/))
     });
   }, []);
 
