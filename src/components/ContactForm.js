@@ -54,10 +54,20 @@ export default function ContactForm() {
               <p className="text-sm mt-1">contact@nyovals.com</p>
             </div>
           </div>
-
-        </div>
-
-        <form onSubmit={handleSubmit} className="p-8 space-y-4 bg-white">
+           <div className="mt-4">
+              <iframe
+                title="NY Ovals Map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2887.953850013724!2d-73.9485969845003!3d42.87054377915698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89de6d0ccdf3091f%3A0xfdf61cb02f7b1b1a!2s4281%20Amsterdam%20Rd%2C%20Glenville%2C%20NY%2012302!5e0!3m2!1sen!2sus!4v1683216459594!5m2!1sen!2sus"
+                width="100%"
+                height="250"
+                style={{ border: 0, borderRadius: "0.5rem" }}
+                allowFullScreen=""
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+      </div>
+    <form onSubmit={handleSubmit} className="p-8 space-y-4 bg-white">
           <h4 className="text-2xl font-semibold mb-4 elegant-font">Tell Us About Your Event</h4>
           {formStatus && (
             <p className="text-center text-sm font-medium mb-2 text-green-600">
