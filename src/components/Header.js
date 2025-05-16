@@ -17,7 +17,7 @@ export default function Header() {
   return `${base} ${isActive(path) ? active : inactive}`;
 };
   return (
-    <header className="sticky top-0 bg-white z-50 shadow-md">
+    <header className="sticky top-0 bg-green-100 z-50 shadow-md">
       <div className="max-w-screen-xl mx-auto flex items-center justify-between px-6 py-4">
         <div className="flex items-center gap-3">
           <img src={logo} alt="NY Ovals Logo" className="h-12 mr-2" />
