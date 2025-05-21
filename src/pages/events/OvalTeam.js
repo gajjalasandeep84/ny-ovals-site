@@ -39,6 +39,16 @@ export default function OvalTeam() {
               <h3 className="text-lg font-semibold">{member.name}</h3>
               <p className="text-sm text-gray-500 font-medium mb-2">{member.title}</p>
               <p className="text-sm text-gray-600">{member.description}</p>
+              <div className="border-t pt-4 mt-6">
+                <a
+                  href={member.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-base font-bold text-gray-800 hover:underline"
+                >
+                  Get to Know Me
+                </a>
+              </div>
             </div>
           ))}
         </div>

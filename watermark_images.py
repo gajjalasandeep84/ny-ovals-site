@@ -40,6 +40,6 @@ def watermark_images_in_folder(root_dir, logo_path, output_dir=None, scale=0.15,
 
 # Example usage:
 # watermark_images_in_folder(
-#     root_dir=r"C:\Development\FiestEventDecor\src",
-#     logo_path=r"C:\Development\FiestEventDecor\fiesta-logo.png"
+#     root_dir=r"C:\Development\NYOvals\src",
+#     logo_path=r"C:\Development\NYOvals\src\assets\logo.png"
 # )
