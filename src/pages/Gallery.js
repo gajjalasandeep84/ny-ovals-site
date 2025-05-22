@@ -58,7 +58,8 @@ export default function Weddings() {
     <div className="font-serif">
       <Header />
       <IntroSection
-        iconImgs={["/icons/cricket-ball.png", "/icons/cricket-bat.png", "/icons/cricket-trophies.png"]}
+        iconImgs={["/icons/grounds.png"]}
+        size="large"
         padding="pt-4 pb-6"
         title={<>Explore <strong>‘NY Ovals’</strong> From Every Angle</>}
         subtitle={

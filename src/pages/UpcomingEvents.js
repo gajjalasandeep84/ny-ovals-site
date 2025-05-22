@@ -9,7 +9,8 @@ export default function UpcomingEvents() {
     <div className="font-serif">
       <Header />
       <IntroSection
-        iconImgs={["/icons/cricket-ball.png", "/icons/cricket-bat.png", "/icons/cricket-trophies.png"]}
+        iconImgs={["/icons/upcoming-events.png"]}
+        size="large"
         padding="pt-4 pb-6"
         title={<>What’s Coming Up </>}
         subtitle="From youth leagues to weekend tournaments, NY Ovals hosts cricket events that bring the Tri-City community together. 

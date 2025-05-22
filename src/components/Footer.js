@@ -18,7 +18,7 @@ export default function Footer() {
           </div>
           <p className="text-gray-600">
             At NY Ovals, we provide top-tier natural turf cricket grounds for leagues, tournaments, and community events.
-            From weekend matches to professional play, our facility is built to deliver an authentic cricketing experience right here in New York.
+            From weekend matches to professional play, our facility is built to deliver an authentic cricketing experience right here in Upstate New York.
           </p>
         </div>
 

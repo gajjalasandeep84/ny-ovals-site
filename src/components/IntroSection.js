@@ -1,15 +1,17 @@
 import React from "react";
-
 export default function IntroSection({
   title,
   subtitle,
-  icon,            // fallback emoji string
-  iconImg,         // legacy: single image
-  iconImgs = [],   // new: multiple images
-  iconSize = "h-16",
+  icon,
+  iconImg,
+  iconImgs = [],
+  size = "default", // new parameter: 'default' | 'large'
   padding = "py-10"
 }) {
   const hasMultiple = iconImgs && iconImgs.length > 0;
+
+  // Conditional sizing
+  const iconSize = size === "large" ? "h-40 md:h-48" : "h-16";
 
   return (
     <section className={`text-center ${padding} px-4 max-w-4xl mx-auto`}>
@@ -26,7 +28,9 @@ export default function IntroSection({
       )}
 
       <h2 className="text-4xl elegant-font mb-4">{title}</h2>
-      <div className="text-gray-600 text-base leading-relaxed">{subtitle}</div>
+      <div className="text-gray-600 text-base leading-relaxed text-left space-y-4">
+        {subtitle}
+      </div>
     </section>
   );
 }

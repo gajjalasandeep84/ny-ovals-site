@@ -13,7 +13,7 @@ export default function PlayerRoster() {
   const [players, setPlayers] = useState({ beginners: [], experienced: [] });
 
   useEffect(() => {
-    fetch("/data/players.json")
+    fetch("/data/ny_oval_players.json")
       .then((res) => res.json())
       .then((data) => setPlayers(data))
       .catch((err) => console.error("Failed to load players.json", err));
@@ -23,9 +23,10 @@ export default function PlayerRoster() {
     <div className="font-serif">
       <Header />
       <IntroSection
-        iconImgs={["/icons/cricket-ball.png", "/icons/cricket-bat.png", "/icons/cricket-trophies.png"]}
+        iconImgs={["/icons/beginner-experienced.png"]}
+        size="large"
         padding="pt-4 pb-6"
-        title={<>Meet Our Players:<strong>– Beginners & Experienced </strong></>}
+        title={<>Meet Our Players</>}
         subtitle={`From first-time learners to seasoned talents, every player is part of the NY Ovals journey.
                     Explore our growing community of cricketers, proudly representing the Tri-City region.`} />
       <div className="max-w-7xl mx-auto p-4">
@@ -59,10 +60,10 @@ export default function PlayerRoster() {
               <img
                 src={player.image}
                 alt={player.name}
-                className="w-36 h-36 mx-auto rounded-full object-cover mb-4 shadow-md"
+                className="w-40 h-40 mx-auto rounded-full object-cover mb-4 shadow-md"
               />
               <h3 className="text-xl font-semibold">{player.name}</h3>
-              <p className="text-sm text-gray-600">Age: {player.age}</p>
+              <p className="text-sm text-gray-600">Age: {player.age}/ Jersey: {player.jersey}</p>
               <p className="text-sm text-gray-600">{player.role}</p>
             </div>
           ))}

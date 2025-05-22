@@ -1,0 +1,216 @@
+{
+  "beginners": [
+    {
+      "name": "Aarush Chegoni",
+      "age": 8,
+      "jersey": 55,
+      "role": "Beginner \u2013 Right-hand batsman/Right-arm bowler",
+      "image": "/images/players/aarushchegoni.png"
+    },
+    {
+      "name": "Aarush V",
+      "age": null,
+      "jersey": 12,
+      "role": "Beginner \u2013 Right-hand batsman/Right-arm bowler",
+      "image": "/images/players/aarushv.png"
+    },
+    {
+      "name": "AHNAF",
+      "age": null,
+      "jersey": 15,
+      "role": "Beginner \u2013 Right-hand batsman/Right-arm bowler",
+      "image": "/images/players/ahnaf.png"
+    },
+    {
+      "name": "Ashvi",
+      "age": null,
+      "jersey": 24,
+      "role": "Beginner \u2013 Right-hand batsman/Right-arm bowler",
+      "image": "/images/players/ashvi.png"
+    },
+    {
+      "name": "Ayaan Gajjala",
+      "age": 8,
+      "jersey": 18,
+      "role": "Beginner \u2013 Right-hand batsman/Right-arm bowler",
+      "image": "/images/players/ayaangajjala.png"
+    },
+    {
+      "name": "Dev Thakku",
+      "age": 8,
+      "jersey": 10,
+      "role": "Beginner \u2013 Right-hand batsman/Right-arm bowler",
+      "image": "/images/players/devthakku.png"
+    },
+    {
+      "name": "Dhruv C",
+      "age": null,
+      "jersey": 4,
+      "role": "Beginner \u2013 Right-hand batsman/Right-arm bowler",
+      "image": "/images/players/dhruvc.png"
+    },
+    {
+      "name": "Krishiv Sachdev",
+      "age": 6,
+      "jersey": null,
+      "role": "Beginner \u2013 Right-hand batsman/Right-arm bowler",
+      "image": "/images/players/krishivsachdev.png"
+    },
+    {
+      "name": "Maxim Hinrichs",
+      "age": null,
+      "jersey": 25,
+      "role": "Beginner \u2013 Right-hand batsman/Right-arm bowler",
+      "image": "/images/players/maximhinrichs.png"
+    },
+    {
+      "name": "Myra Gupta",
+      "age": null,
+      "jersey": 21,
+      "role": "Beginner \u2013 Right-hand batsman/Right-arm bowler",
+      "image": "/images/players/myragupta.png"
+    },
+    {
+      "name": "Om",
+      "age": null,
+      "jersey": null,
+      "role": "Beginner \u2013 Right-hand batsman/Right-arm bowler",
+      "image": "/images/players/om.png"
+    },
+    {
+      "name": "Pranav Janakiraman",
+      "age": null,
+      "jersey": 23,
+      "role": "Beginner \u2013 Right-hand batsman/Right-arm bowler",
+      "image": "/images/players/pranavjanakiraman.png"
+    },
+    {
+      "name": "Rishabh Nagarkar",
+      "age": null,
+      "jersey": null,
+      "role": "Beginner \u2013 Right-hand batsman/Right-arm bowler",
+      "image": "/images/players/rishabhnagarkar.png"
+    },
+    {
+      "name": "Shaurya Borra",
+      "age": null,
+      "jersey": null,
+      "role": "Beginner \u2013 Right-hand batsman/Right-arm bowler",
+      "image": "/images/players/shauryaborra.png"
+    },
+    {
+      "name": "Vedang Paranjape",
+      "age": null,
+      "jersey": 93,
+      "role": "Beginner \u2013 Right-hand batsman/Right-arm bowler",
+      "image": "/images/players/vedangparanjape.png"
+    },
+    {
+      "name": "Yuvaan Mishra",
+      "age": null,
+      "jersey": 125,
+      "role": "Beginner \u2013 Right-hand batsman/Right-arm bowler",
+      "image": "/images/players/yuvaanmishra.png"
+    },
+    {
+      "name": "Yuvan Recherla",
+      "age": 8,
+      "jersey": 93,
+      "role": "Beginner \u2013 Right-hand batsman/Right-arm bowler",
+      "image": "/images/players/yuvanrecherla.png"
+    }
+  ],
+  "experienced": [
+    {
+      "name": "Ammu Gupta",
+      "age": null,
+      "jersey": 4,
+      "role": "Experienced \u2013 Right-hand batsman/Right-arm bowler",
+      "image": "/images/players/ammugupta.png"
+    },
+    {
+      "name": "Ananda Krishna Bodduluri",
+      "age": null,
+      "jersey": 45,
+      "role": "Experienced \u2013 Right-hand batsman/Right-arm bowler",
+      "image": "/images/players/anandakrishnabodduluri.png"
+    },
+    {
+      "name": "Aniket Dixit",
+      "age": null,
+      "jersey": 18,
+      "role": "Experienced \u2013 Right-hand batsman/Right-arm bowler",
+      "image": "/images/players/aniketdixit.png"
+    },
+    {
+      "name": "Aniket Kothapally",
+      "age": null,
+      "jersey": 11,
+      "role": "Experienced \u2013 Right-hand batsman/Right-arm bowler",
+      "image": "/images/players/aniketkothapally.png"
+    },
+    {
+      "name": "Anvi",
+      "age": null,
+      "jersey": 16,
+      "role": "Experienced \u2013 Right-hand batsman/Right-arm bowler",
+      "image": "/images/players/anvi.png"
+    },
+    {
+      "name": "Maxwell Lakhtakia",
+      "age": null,
+      "jersey": null,
+      "role": "Experienced \u2013 Right-hand batsman/Right-arm bowler",
+      "image": "/images/players/maxwelllakhtakia.png"
+    },
+    {
+      "name": "Rayansh Tari",
+      "age": null,
+      "jersey": 2,
+      "role": "Experienced \u2013 Right-hand batsman/Right-arm bowler",
+      "image": "/images/players/rayanshtari.png"
+    },
+    {
+      "name": "Rohith Kulkarni",
+      "age": null,
+      "jersey": 8,
+      "role": "Experienced \u2013 Right-hand batsman/Right-arm bowler",
+      "image": "/images/players/rohithkulkarni.png"
+    },
+    {
+      "name": "Shivank Gupta",
+      "age": null,
+      "jersey": 3,
+      "role": "Experienced \u2013 Right-hand batsman/Right-arm bowler",
+      "image": "/images/players/shivankgupta.png"
+    },
+    {
+      "name": "Shlok Prabhushettar",
+      "age": null,
+      "jersey": 10,
+      "role": "Experienced \u2013 Right-hand batsman/Right-arm bowler",
+      "image": "/images/players/shlokprabhushettar.png"
+    },
+    {
+      "name": "Sparsh Barde",
+      "age": null,
+      "jersey": 30,
+      "role": "Experienced \u2013 Right-hand batsman/Right-arm bowler",
+      "image": "/images/players/sparshbarde.png"
+    },
+    {
+      "name": "Tamin Mansoor",
+      "age": null,
+      "jersey": 6,
+      "role": "Experienced \u2013 Right-hand batsman/Right-arm bowler",
+      "image": "/images/players/taminmansoor.png"
+    },
+    {
+      "name": "Vachan Prabhushettar",
+      "age": null,
+      "jersey": 28,
+      "role": "Experienced \u2013 Right-hand batsman/Right-arm bowler",
+      "image": "/images/players/vachanprabhushettar.png"
+    }
+  ]
+}
