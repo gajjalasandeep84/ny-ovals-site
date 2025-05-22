@@ -25,11 +25,10 @@ export default function Home() {
   }, []);
 
   useEffect(() => {
-    if (galleryRef.current) {
+    if (selected !== "Home" && galleryRef.current) {
       galleryRef.current.scrollIntoView({ behavior: 'smooth' });
     }
   }, [selected]);
-
   return (
     <div className="font-serif">
       <Header selected={selected} setSelected={setSelected} />
